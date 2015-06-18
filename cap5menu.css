@@ -1,0 +1,101 @@
+.nav {
+background-color: #B9522D;
+height: 30px;
+list-style:none;
+padding: 0;
+width: 210px;
+}
+.nav li {
+float: left;
+font-weight: bold;
+height: 30px;
+line-height: 30px;
+text-align: center;
+width: 70px;
+}
+.nav a {
+color: white;
+}
+.nav .current {
+background-color: #A64A28;
+box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+}
+
+.status {
+color: white;
+display: inline-block;
+font-weight: bold;
+font-weight: bold;
+padding: 7px 10px;
+text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+}
+.failed {
+background-color: #BD2C00;
+}
+.shipped {
+background-color: #6CC644;
+}
+.processing {
+background-color: #FC9800;
+}
+
+h1 {
+color: #BD2C00;
+font-size: 1.2em;
+margin: 0;
+}
+h2 {
+font-size: 1em;
+margin: 5px 0;
+}
+
+ul {
+	background-color: #56B4EF;
+	background-image: -webkit-linear-gradient(top, #56B4EF,#148EDA);
+	background-image: -moz-linear-gradient(top, #56B4EF,#148EDA);
+	float: left;
+	list-style: none;
+	margin: 10px 10px 0 0;
+	padding: 0;
+	width: 230px;
+}
+
+@font-face {
+font-family: 'Icons';
+src: url('open_iconic.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+.icon:before {
+font-family: 'Icons';
+margin: 0px 5px;
+}
+.paper:before {
+content: "\e00b";
+}
+.digital:before {
+content: "\e044";
+}
+.package:before {
+content: "\e022";
+}
+.icon {
+color: #FFF;
+display: block;
+font-size: 0.9em;
+font-weight: bold;
+padding: 5px;
+text-decoration: none;
+text-shadow: 0 1px 0 rgba(0, 0, 0, 0.9);
+}
+.icon {
+border-bottom: 1px solid rgba(0,0,0, 0.3);
+border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+.icon.paper {
+border-top: none;
+}
+.icon.package {
+border-bottom: none;
+}
+

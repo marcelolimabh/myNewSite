@@ -1,0 +1,40 @@
+div {
+font-weight: bold;
+height: 50px;
+line-height: 25px;
+margin-bottom: 10px;
+padding: 5px;
+text-align: center;
+width: 220px;
+}
+
+.blue {
+background-color: #4377FA; /* A cor superior do gradiente como fundo */
+background-image: -webkit-linear-gradient(top, #4377FA, #0537B7);
+background-image: -moz-linear-gradient(top, #4377FA, #0537B7);
+}
+.reverse-blue {
+background-image: -webkit-linear-gradient(top, #0537B7, #4377FA);
+background-image: -moz-linear-gradient(top, #0537B7, #4377FA);
+}
+.omg-pink {
+background-image: -webkit-linear-gradient(top right, #FC0050, #FF79A3);
+background-image: -moz-linear-gradient(top right, #FC0050, #FF79A3);
+}
+.stops {
+background-image: -webkit-linear-gradient(top, #F5B951 48%, #F2A31C 56%);
+background-image: -moz-linear-gradient(top, #F5B951 48%, #F2A31C 56%);
+}
+.help {
+box-shadow: 3px 3px 3px #AAA;
+}
+input {
+border: 1px solid #999;
+box-shadow: 2px 2px 2px rgba(0,0,0, 0.25) inset;
+padding: 2px 5px;
+}
+input:focus {
+border-color: #35861B;
+box-shadow: 0 0 5px #35861B, 2px 2px 2px rgba(0,0,0,0.25) inset;
+outline: none;
+}
